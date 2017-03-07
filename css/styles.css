@@ -1,0 +1,89 @@
+/**************************
+BASE STYLES
+**************************/
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 90%;
+}
+
+body {
+  font-family: 'Catamaran', sans-serif;
+  color: #878787;
+  text-align: center;
+  background-color: #fafafa;
+}
+
+p {
+  margin: 0 14px 20px;
+  font-size: 1.2em;
+}
+
+h1 {
+	font-family: 'Audiowide', sans-serif;
+	color: #444;
+	margin: 12px 0;
+}
+
+h2 {
+	font-family: 'Catamaran' sans-serif;
+	text-transform: uppercase;
+	padding: 30px;
+	margin: 0 auto;
+	font-size: 1.2em;
+	color: #444;
+}
+
+h3 {
+	font-size: 1.3em;
+	font-weight: 400;
+	color: #444;
+	margin-bottom: .5em;
+}
+
+/**************************
+LAYOUT STYLES
+**************************/
+
+.main-nav {
+	display: block;
+	margin: 4px 0;
+}
+
+.main-nav ul {
+	list-style: none;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 1.1em;
+	padding: 8px;
+}
+
+.main-nav li {
+	margin: 8px 0;
+	background-color: white;
+	padding: 12px 0;
+}
+
+.main-nav li a {
+	text-decoration: none;
+}
+
+.main-nav li a:active, a:visited {
+	color: #222;
+}
+
+.profile img {
+	width: 75%;
+	margin-bottom: .7em;
+}
+
+.projects {
+	background-color: white;
+}
+
+/**************************
+MEDIA QUERIES
+**************************/
