@@ -51,7 +51,7 @@ h3 {
 footer {
 	width: 80%;
 	border-top: 1px solid #ddd;
-	margin: 1em auto 1em;
+	margin: 0 auto 1em;
 	font-weight: bold;
 	color: #444;
 	padding-bottom: 1.5em;
@@ -72,12 +72,12 @@ footer li a{
 LAYOUT STYLES
 **************************/
 
-.main-nav {
+nav {
 	display: block;
 	margin: 4px 0;
 }
 
-.main-nav ul {
+nav ul {
 	list-style: none;
 	text-transform: uppercase;
 	font-weight: 700;
@@ -85,17 +85,17 @@ LAYOUT STYLES
 	padding: 8px;
 }
 
-.main-nav li {
+nav li {
 	margin: 8px 0;
 	background-color: white;
 	padding: 12px 0;
 }
 
-.main-nav li a {
+nav li a {
 	text-decoration: none;
 }
 
-.main-nav li a:active, a:visited {
+nav li a:active, a:visited {
 	color: #222;
 }
 
@@ -113,8 +113,13 @@ LAYOUT STYLES
 	margin-bottom: 50px;
 }
 
+.skills {
+	padding-bottom: 1em;
+}
+
 .contactinfo {
 	padding-bottom: 1em;
+	background-color: white;
 }
 
 .contactdata {
