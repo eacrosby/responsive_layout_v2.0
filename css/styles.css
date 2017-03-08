@@ -99,6 +99,11 @@ nav li a:active, a:visited {
 	color: #222;
 }
 
+nav li a:hover {
+	color: orange;
+	border-bottom: 2px dotted orange;
+}
+
 .profile img {
 	width: 75%;
 	margin-bottom: .7em;
@@ -119,7 +124,12 @@ nav li a:active, a:visited {
 
 .contactinfo {
 	padding-bottom: 1em;
-	background-color: white;
+	background-color: orange;
+	color: white;
+}
+
+.contactinfo h2 {
+	color: white;
 }
 
 .contactdata {
@@ -139,3 +149,4 @@ nav li a:active, a:visited {
 /**************************
 MEDIA QUERIES
 **************************/
+
