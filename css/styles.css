@@ -233,11 +233,19 @@ MEDIA QUERIES
 	.projects li {
 		width: 50%;
 		float: left;
+		padding-left: 0;
 	}
 
 	.caption {
 		width: 75%;
 		margin: 0 auto 3em;
+	}
+
+	.contactinfo p {
+		font-size: 1.4em;
+		text-align: center;
+		padding-left: 12.5%;
+		padding-right: 12.5%;
 	}
 
 	.foot-name {
@@ -308,6 +316,11 @@ MEDIA QUERIES
 	.projects li {
 		width: 33.3333%;
 		margin: auto;
+	}
+
+	.contactinfo p {
+		padding-left: 19%;
+		padding-right: 19%;
 	}
 
 	.clearfix::after {
