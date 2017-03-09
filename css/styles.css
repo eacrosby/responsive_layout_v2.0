@@ -70,7 +70,7 @@ h1 {
 }
 
 h2 {
-	font-family: 'Catamaran' sans-serif;
+	font-family: 'Catamaran', sans-serif;
 	text-transform: uppercase;
 	padding: 30px;
 	margin: 0 auto;
@@ -261,7 +261,6 @@ MEDIA QUERIES
 	.foot-nav {
 		display: flex;
 		flex-direction: column;
-		align-self: left;
 		justify-content: space-between;
 	}
 
